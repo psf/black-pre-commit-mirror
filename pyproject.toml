@@ -4,3 +4,4 @@ version = "0.1.0"
 dependencies = [
     "black==23.7.0",
 ]
+optional-dependencies = { jupyter = ["black[jupyter]"] }
