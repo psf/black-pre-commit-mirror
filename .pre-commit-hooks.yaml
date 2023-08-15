@@ -15,4 +15,4 @@
   minimum_pre_commit_version: 2.9.2
   require_serial: true
   types_or: [python, pyi, jupyter]
-  additional_dependencies: [".[jupyter]"]
+  additional_dependencies: [ipython, tokenize-rt]

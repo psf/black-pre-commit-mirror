@@ -1,11 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "black-pre-commit-mirror"
 version = "0.1.0"
 dependencies = [
     "black==23.7.0",
-]
-
-[project.optional-dependencies]
-jupyter = [
-    "black[jupyter]",
 ]
