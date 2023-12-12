@@ -28,7 +28,7 @@ def main():
         raise RuntimeError
 
     versions = [Version(release) for release in resp.json()["releases"]]
-    versions = [v for v in versions if v > current_version]
+    versions = [v for v in versions if v > current_version and not v.is_prerelease]
     versions.sort()
 
     for version in versions:
