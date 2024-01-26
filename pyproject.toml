@@ -2,7 +2,7 @@
 name = "black-pre-commit-mirror"
 version = "0.1.0"
 dependencies = [
-    "black==23.12.1",
+    "black==24.1.0",
 ]
 
 [project.optional-dependencies]
